@@ -1,0 +1,44 @@
+#campusalert-row {
+    border-bottom: 1px solid #f00;
+    display: none;
+    padding-top: 2rem;
+}
+
+.ummc.is-secondary-page #campusalert-row{
+    padding-top:5rem;
+}
+
+.intranet #campusalert-row {
+    padding-top: calc(110px + 2vw);
+}
+
+#campusalert-row.active {
+    display: block;
+}
+
+#campusalert-row .alerts {
+    background: #ffeaea;
+    border: 1px solid #f00;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+#campusalert-row .alerts > div, #campusalert-row .alerts > p, #campusalert-row .alerts > li {
+    font-size: 1.3rem;
+}
+
+#campusalert-row .alerts h3 {
+    font-size: 1.5rem;
+    border-bottom: 1px solid #ffb1b1;
+    color: #690000;
+}
+
+#campusalert-row .campusalert-container {
+    padding: 0px 15px;
+}
+
+#campusalert-row .campusalert-container h2 {
+    color: red;
+    padding-top: 0px;
+    margin-bottom: 0.6rem;
+}
